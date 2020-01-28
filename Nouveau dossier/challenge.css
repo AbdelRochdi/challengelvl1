@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2,h3{
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.container{
+    
+    background-color: Cyan: hsl(170, 45%, 43%);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 80px;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li{
+    padding: 0 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+.topsec{
+    display: flex;
+    background: url(image/bg-curve-desktop.svg) no-repeat center bottom;
+    background-size: contain;
+    height: 900px;
+    text-align: center;
+    align-items: center;
+    padding: -30px 100px 200px 100px;
+    margin-top: -180px;
+}
+
+ h1{
+    font-size: 28px;
+    text-align: left;
+    padding: 0 85px;
+    line-height: 40px;
+}
+.topsec article{
+    margin-bottom: 50px;
+}
+
+.firstp{
+    text-align: left;
+    padding: 0 85px;
+    font-size: 13px;
+    line-height: 23px;
+    margin-top: -10px;
+}
+
+.email{
+    margin: 0 10px 0px -25px;
+    width: 223px;
+    height: 27px;
+    border: 1px solid gray;
+    border-radius: 2%;
+    padding-left: 18px;
+    font-size: 12px;
+    outline: none;
+}
+
+.butn{
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    border-radius: 4%;
+    width: 140px;
+    height: 31.5px;  
+    font-size: 12px;
+    color: white; 
+    box-shadow: 1px 0.5px 8px -2px gray;
+}
+
+.topimg{
+    width: 80%;
+    margin-right: 90px;
+}
+
+.midsec{
+    display: flex;
+    background-color: hsl(240, 75%, 98%);
+    height: 550px;
+    align-items: center;
+    text-align: center;
+    margin-top: -30px;
+}
+
+.midsec2{
+    margin-top: -70px;
+}
+
+.secondp{
+    text-align: left;
+    padding: 0 85px;
+    font-size: 13px;
+    line-height: 23px;
+    margin-top: -10px;
+    margin-bottom: 22px;
+}
+
+.prod{
+    font-size: 28px;
+    text-align: left;
+    padding: 0 0px;
+    line-height: 40px;
+    margin-left: 83px;
+}
+
+.linko{
+    margin-left: -250px;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(80, 197, 80);
+    color: rgb(80, 197, 80);
+    padding:0px 25px 5px 0px;
+    background: url(image/icon-arrow.svg) no-repeat right;
+    font-size: 13px;
+}
+
+.quote{
+    background-color: white;
+    width: 300px;
+    margin: 40px 0 0 85px;
+    height: 180px;
+    border-radius: 2%;
+    box-shadow: 1px 0.5px 6px -1px gray;
+}
+
+.iquo{
+    position: relative;
+    top: 13px;
+    right: 111px;
+}
+
+.thirdp{
+    font-size: 11px;
+    text-align: left;
+    padding: 10px 33px;
+    line-height: 20px;
+    margin-top: 3px;
+}
+
+.avatar{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: -8px;
+}
+
+.midimg{
+    width: 70%;
+    margin-right: 30px;
+    margin-top: -60px;
+}
+
+h3{
+    margin: 0px 0 2px -43px;
+    font-size: 10px;
+}
+
+.job{
+    font-size: 10px;
+    margin: 0px 0 0 10px;
+    
+}
+
+.testi{
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+}
+
+.midbotsec{
+    display: flex;
+    align-items: center;
+    background-color: hsl(238, 22%, 44%);
+    height: 270px;
+    color: white;
+    justify-content: space-around;
+}
+
+footer{
+    background-color: hsl(243, 87%, 12%);
+    height: 400px;
+}
+
+.botsec{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.access{
+    margin-left: -90px;
+}
+
+.fourthp{
+    font-size: 11px;
+    text-align: left;
+    padding: 10px 10px;
+    line-height: 20px;
+    margin-top: 3px;
+    margin-left: -100px;
+    width: 350px;
+}
+
+.botcta{
+    display: flex;
+    flex-direction: column;
+}
+
+.email2{
+    margin: 0 10px 0px -25px;
+    width: 300px;
+    height: 27px;
+    border: 1px solid gray;
+    border-radius: 2%;
+    padding-left: 18px;
+    font-size: 12px;
+    outline: none;
+    margin-top: -32px;
+}
+
+.butn2{
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    border-radius: 4%;
+    width: 140px;
+    height: 31.5px;  
+    font-size: 12px;
+    color: white; 
+    box-shadow: 1px 0.5px 8px -2px gray;
+    margin-left: -24px;
+    margin-top: 12px;
+}
+
+.footlogo{
+    padding: 100px 80px 0 80px;
+    width: 15%;
+    margin-left: -13px;
+}
+
+.phone{
+    background: url(image/icon-phone.svg) no-repeat left;
+    padding-left: 40px;
+}
+
+.botsec{
+    margin-left: -94px;
+}
+
+.botsec ul li{
+    padding: 8px 20px;
+}
+
+.letter{
+    background: url(image/icon-email.svg) no-repeat left;
+    padding-left: 40px;
+}
+
+.social ul{
+    display: flex;
+}
+
+.social ul li{
+    margin: 0 -12px;
+}
+
+.social ul li a img{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 100%;
+
+}
